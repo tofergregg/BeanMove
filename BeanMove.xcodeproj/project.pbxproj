@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51D51E0195F182100D4A53D /* ussd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D51D51DF195F182100D4A53D /* ussd.mp3 */; };
+		D51D51E3195F1CCE00D4A53D /* blue-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = D51D51E1195F1CCE00D4A53D /* blue-arrow-left.png */; };
+		D51D51E4195F1CCE00D4A53D /* blue-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = D51D51E2195F1CCE00D4A53D /* blue-arrow-right.png */; };
+		D51D51E6195F2A8200D4A53D /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D51D51E5195F2A8200D4A53D /* swoosh.mp3 */; };
+		D58D5F441954C8DE0070CB95 /* libBean iOS Library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D58D5F431954C8DE0070CB95 /* libBean iOS Library.a */; };
+		D59FFDD01954B18B00AF283D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FFDCF1954B18B00AF283D /* Foundation.framework */; };
+		D59FFDD21954B18B00AF283D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FFDD11954B18B00AF283D /* CoreGraphics.framework */; };
+		D59FFDD41954B18B00AF283D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FFDD31954B18B00AF283D /* UIKit.framework */; };
+		D59FFDDA1954B18B00AF283D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D59FFDD81954B18B00AF283D /* InfoPlist.strings */; };
+		D59FFDDC1954B18B00AF283D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FFDDB1954B18B00AF283D /* main.m */; };
+		D59FFDE01954B18B00AF283D /* beanmoveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FFDDF1954B18B00AF283D /* beanmoveAppDelegate.m */; };
+		D59FFDE31954B18B00AF283D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59FFDE11954B18B00AF283D /* Main.storyboard */; };
+		D59FFDE61954B18B00AF283D /* beanmoveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FFDE51954B18B00AF283D /* beanmoveMainViewController.m */; };
+		D59FFDE91954B18B00AF283D /* beanmoveFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FFDE81954B18B00AF283D /* beanmoveFlipsideViewController.m */; };
+		D59FFDEB1954B18B00AF283D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59FFDEA1954B18B00AF283D /* Images.xcassets */; };
+		D59FFDF21954B18B00AF283D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FFDF11954B18B00AF283D /* XCTest.framework */; };
+		D59FFDF31954B18B00AF283D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FFDCF1954B18B00AF283D /* Foundation.framework */; };
+		D59FFDF41954B18B00AF283D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59FFDD31954B18B00AF283D /* UIKit.framework */; };
+		D59FFDFC1954B18B00AF283D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D59FFDFA1954B18B00AF283D /* InfoPlist.strings */; };
+		D59FFDFE1954B18B00AF283D /* BeanMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FFDFD1954B18B00AF283D /* BeanMoveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59FFDF51954B18B00AF283D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59FFDC41954B18B00AF283D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59FFDCB1954B18B00AF283D;
+			remoteInfo = BeanMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D51D51DF195F182100D4A53D /* ussd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ussd.mp3; sourceTree = "<group>"; };
+		D51D51E1195F1CCE00D4A53D /* blue-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-arrow-left.png"; sourceTree = "<group>"; };
+		D51D51E2195F1CCE00D4A53D /* blue-arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-arrow-right.png"; sourceTree = "<group>"; };
+		D51D51E5195F2A8200D4A53D /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
+		D58D5F431954C8DE0070CB95 /* libBean iOS Library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBean iOS Library.a"; sourceTree = "<group>"; };
+		D59FFDCC1954B18B00AF283D /* BeanMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59FFDCF1954B18B00AF283D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D59FFDD11954B18B00AF283D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D59FFDD31954B18B00AF283D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D59FFDD71954B18B00AF283D /* BeanMove-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeanMove-Info.plist"; sourceTree = "<group>"; };
+		D59FFDD91954B18B00AF283D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D59FFDDB1954B18B00AF283D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D59FFDDD1954B18B00AF283D /* BeanMove-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeanMove-Prefix.pch"; sourceTree = "<group>"; };
+		D59FFDDE1954B18B00AF283D /* beanmoveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beanmoveAppDelegate.h; sourceTree = "<group>"; };
+		D59FFDDF1954B18B00AF283D /* beanmoveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beanmoveAppDelegate.m; sourceTree = "<group>"; };
+		D59FFDE21954B18B00AF283D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59FFDE41954B18B00AF283D /* beanmoveMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beanmoveMainViewController.h; sourceTree = "<group>"; };
+		D59FFDE51954B18B00AF283D /* beanmoveMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beanmoveMainViewController.m; sourceTree = "<group>"; };
+		D59FFDE71954B18B00AF283D /* beanmoveFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beanmoveFlipsideViewController.h; sourceTree = "<group>"; };
+		D59FFDE81954B18B00AF283D /* beanmoveFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beanmoveFlipsideViewController.m; sourceTree = "<group>"; };
+		D59FFDEA1954B18B00AF283D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D59FFDF01954B18B00AF283D /* BeanMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59FFDF11954B18B00AF283D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D59FFDF91954B18B00AF283D /* BeanMoveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeanMoveTests-Info.plist"; sourceTree = "<group>"; };
+		D59FFDFB1954B18B00AF283D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D59FFDFD1954B18B00AF283D /* BeanMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeanMoveTests.m; sourceTree = "<group>"; };
+		D59FFE0B1954B21000AF283D /* BEAN_Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEAN_Globals.h; sourceTree = "<group>"; };
+		D59FFE0C1954B21000AF283D /* PTDBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTDBean.h; sourceTree = "<group>"; };
+		D59FFE0D1954B21000AF283D /* PTDBeanManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTDBeanManager.h; sourceTree = "<group>"; };
+		D59FFE0E1954B21000AF283D /* PTDBeanRadioConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTDBeanRadioConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59FFDC91954B18B00AF283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FFDD21954B18B00AF283D /* CoreGraphics.framework in Frameworks */,
+				D58D5F441954C8DE0070CB95 /* libBean iOS Library.a in Frameworks */,
+				D59FFDD41954B18B00AF283D /* UIKit.framework in Frameworks */,
+				D59FFDD01954B18B00AF283D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59FFDED1954B18B00AF283D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FFDF21954B18B00AF283D /* XCTest.framework in Frameworks */,
+				D59FFDF41954B18B00AF283D /* UIKit.framework in Frameworks */,
+				D59FFDF31954B18B00AF283D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59FFDC31954B18B00AF283D = {
+			isa = PBXGroup;
+			children = (
+				D59FFDD51954B18B00AF283D /* BeanMove */,
+				D59FFDF71954B18B00AF283D /* BeanMoveTests */,
+				D59FFDCE1954B18B00AF283D /* Frameworks */,
+				D59FFDCD1954B18B00AF283D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59FFDCD1954B18B00AF283D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59FFDCC1954B18B00AF283D /* BeanMove.app */,
+				D59FFDF01954B18B00AF283D /* BeanMoveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59FFDCE1954B18B00AF283D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D58D5F431954C8DE0070CB95 /* libBean iOS Library.a */,
+				D59FFDCF1954B18B00AF283D /* Foundation.framework */,
+				D59FFDD11954B18B00AF283D /* CoreGraphics.framework */,
+				D59FFDD31954B18B00AF283D /* UIKit.framework */,
+				D59FFDF11954B18B00AF283D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D59FFDD51954B18B00AF283D /* BeanMove */ = {
+			isa = PBXGroup;
+			children = (
+				D59FFDDE1954B18B00AF283D /* beanmoveAppDelegate.h */,
+				D59FFDDF1954B18B00AF283D /* beanmoveAppDelegate.m */,
+				D59FFDE11954B18B00AF283D /* Main.storyboard */,
+				D59FFDE41954B18B00AF283D /* beanmoveMainViewController.h */,
+				D59FFDE51954B18B00AF283D /* beanmoveMainViewController.m */,
+				D59FFDE71954B18B00AF283D /* beanmoveFlipsideViewController.h */,
+				D59FFDE81954B18B00AF283D /* beanmoveFlipsideViewController.m */,
+				D59FFDEA1954B18B00AF283D /* Images.xcassets */,
+				D59FFE0A1954B1F900AF283D /* Bean Headers */,
+				D59FFDD61954B18B00AF283D /* Supporting Files */,
+			);
+			path = BeanMove;
+			sourceTree = "<group>";
+		};
+		D59FFDD61954B18B00AF283D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D51D51E5195F2A8200D4A53D /* swoosh.mp3 */,
+				D51D51E1195F1CCE00D4A53D /* blue-arrow-left.png */,
+				D51D51E2195F1CCE00D4A53D /* blue-arrow-right.png */,
+				D51D51DF195F182100D4A53D /* ussd.mp3 */,
+				D59FFDD71954B18B00AF283D /* BeanMove-Info.plist */,
+				D59FFDD81954B18B00AF283D /* InfoPlist.strings */,
+				D59FFDDB1954B18B00AF283D /* main.m */,
+				D59FFDDD1954B18B00AF283D /* BeanMove-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59FFDF71954B18B00AF283D /* BeanMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59FFDFD1954B18B00AF283D /* BeanMoveTests.m */,
+				D59FFDF81954B18B00AF283D /* Supporting Files */,
+			);
+			path = BeanMoveTests;
+			sourceTree = "<group>";
+		};
+		D59FFDF81954B18B00AF283D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59FFDF91954B18B00AF283D /* BeanMoveTests-Info.plist */,
+				D59FFDFA1954B18B00AF283D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59FFE0A1954B1F900AF283D /* Bean Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D59FFE0B1954B21000AF283D /* BEAN_Globals.h */,
+				D59FFE0C1954B21000AF283D /* PTDBean.h */,
+				D59FFE0D1954B21000AF283D /* PTDBeanManager.h */,
+				D59FFE0E1954B21000AF283D /* PTDBeanRadioConfig.h */,
+			);
+			name = "Bean Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59FFDCB1954B18B00AF283D /* BeanMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59FFE011954B18B00AF283D /* Build configuration list for PBXNativeTarget "BeanMove" */;
+			buildPhases = (
+				D59FFDC81954B18B00AF283D /* Sources */,
+				D59FFDC91954B18B00AF283D /* Frameworks */,
+				D59FFDCA1954B18B00AF283D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeanMove;
+			productName = BeanMove;
+			productReference = D59FFDCC1954B18B00AF283D /* BeanMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59FFDEF1954B18B00AF283D /* BeanMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59FFE041954B18B00AF283D /* Build configuration list for PBXNativeTarget "BeanMoveTests" */;
+			buildPhases = (
+				D59FFDEC1954B18B00AF283D /* Sources */,
+				D59FFDED1954B18B00AF283D /* Frameworks */,
+				D59FFDEE1954B18B00AF283D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59FFDF61954B18B00AF283D /* PBXTargetDependency */,
+			);
+			name = BeanMoveTests;
+			productName = BeanMoveTests;
+			productReference = D59FFDF01954B18B00AF283D /* BeanMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59FFDC41954B18B00AF283D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = beanmove;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chris Gregg";
+				TargetAttributes = {
+					D59FFDEF1954B18B00AF283D = {
+						TestTargetID = D59FFDCB1954B18B00AF283D;
+					};
+				};
+			};
+			buildConfigurationList = D59FFDC71954B18B00AF283D /* Build configuration list for PBXProject "BeanMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59FFDC31954B18B00AF283D;
+			productRefGroup = D59FFDCD1954B18B00AF283D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59FFDCB1954B18B00AF283D /* BeanMove */,
+				D59FFDEF1954B18B00AF283D /* BeanMoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59FFDCA1954B18B00AF283D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FFDEB1954B18B00AF283D /* Images.xcassets in Resources */,
+				D51D51E0195F182100D4A53D /* ussd.mp3 in Resources */,
+				D59FFDDA1954B18B00AF283D /* InfoPlist.strings in Resources */,
+				D59FFDE31954B18B00AF283D /* Main.storyboard in Resources */,
+				D51D51E4195F1CCE00D4A53D /* blue-arrow-right.png in Resources */,
+				D51D51E6195F2A8200D4A53D /* swoosh.mp3 in Resources */,
+				D51D51E3195F1CCE00D4A53D /* blue-arrow-left.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59FFDEE1954B18B00AF283D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FFDFC1954B18B00AF283D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59FFDC81954B18B00AF283D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FFDDC1954B18B00AF283D /* main.m in Sources */,
+				D59FFDE01954B18B00AF283D /* beanmoveAppDelegate.m in Sources */,
+				D59FFDE91954B18B00AF283D /* beanmoveFlipsideViewController.m in Sources */,
+				D59FFDE61954B18B00AF283D /* beanmoveMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59FFDEC1954B18B00AF283D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59FFDFE1954B18B00AF283D /* BeanMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59FFDF61954B18B00AF283D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59FFDCB1954B18B00AF283D /* BeanMove */;
+			targetProxy = D59FFDF51954B18B00AF283D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59FFDD81954B18B00AF283D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59FFDD91954B18B00AF283D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D59FFDE11954B18B00AF283D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59FFDE21954B18B00AF283D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59FFDFA1954B18B00AF283D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59FFDFB1954B18B00AF283D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59FFDFF1954B18B00AF283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D59FFE001954B18B00AF283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59FFE021954B18B00AF283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeanMove/BeanMove-Prefix.pch";
+				INFOPLIST_FILE = "BeanMove/BeanMove-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D59FFE031954B18B00AF283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeanMove/BeanMove-Prefix.pch";
+				INFOPLIST_FILE = "BeanMove/BeanMove-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D59FFE051954B18B00AF283D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeanMove.app/BeanMove";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeanMove/BeanMove-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeanMoveTests/BeanMoveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D59FFE061954B18B00AF283D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeanMove.app/BeanMove";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeanMove/BeanMove-Prefix.pch";
+				INFOPLIST_FILE = "BeanMoveTests/BeanMoveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59FFDC71954B18B00AF283D /* Build configuration list for PBXProject "BeanMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59FFDFF1954B18B00AF283D /* Debug */,
+				D59FFE001954B18B00AF283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59FFE011954B18B00AF283D /* Build configuration list for PBXNativeTarget "BeanMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59FFE021954B18B00AF283D /* Debug */,
+				D59FFE031954B18B00AF283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59FFE041954B18B00AF283D /* Build configuration list for PBXNativeTarget "BeanMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59FFE051954B18B00AF283D /* Debug */,
+				D59FFE061954B18B00AF283D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59FFDC41954B18B00AF283D /* Project object */;
+}
