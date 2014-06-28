@@ -40,7 +40,7 @@ respectively.
 * The libBean SDK can be found here: [https://github.com/PunchThrough/Bean-iOS-OSX-SDK](https://github.com/PunchThrough/Bean-iOS-OSX-SDK).
 
 
-# Known bugs:
+# Known bugs
 
 - Occasionally, the program will crash -- unsure why.
 
