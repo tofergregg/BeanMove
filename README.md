@@ -52,4 +52,4 @@ opposite direction, and significant).
 
 # Licensing
 
-This SDK is covered under **The MIT License**. See `LICENSE.txt` for more details.
+This SDK is covered under **The MIT License**. See `LICENSE` for more details.
