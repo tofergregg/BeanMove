@@ -7,6 +7,7 @@ The Bean should be oriented so that the battery is towards the back, and the lon
 of the bean is up/down, with the holes at the bottom:
 
 ` ---------------`
+
 `/          --   \`
 `|   ---------   |`
 `|   :       :   |`
