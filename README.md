@@ -6,7 +6,8 @@ iOS program to demonstrate how to use the LightBlue Bean's accelerometer to regi
 The Bean should be oriented so that the battery is towards the back, and the long axis
 of the bean is up/down, with the holes at the bottom:
 
-` ---------------
+~~~~
+ ---------------
 /          --   \
 |   ---------   |
 |   :       :   |
@@ -23,6 +24,6 @@ of the bean is up/down, with the holes at the bottom:
 |o o o o o o o o|
 |  o o o o o o  |
 \   o o o o     /
- ---------------`
- 
+ ---------------
+~~~~ 
  
